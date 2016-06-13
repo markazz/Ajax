@@ -1,0 +1,41 @@
+{
+/*
+-	Using the “data.json” file as a reference,
+> create a JSON file with data on a series of five cars (or whatever takes your fancy). 
+
+Store 5 pieces of information about each of the cars, 
+
+e.g. 
+
+make,
+colour,
+fuel, 
+transmission
+path to an image.
+
+{"make":"", "colour":"", "fuel":"", "transmission":"", "image":"image1.png" }
+
+
+-	Use AJAX techniques to dynamically place these details on a webpage.
+*/
+
+// array of cars 
+"cars":
+	[
+		// object 1: car 1
+		{"make":"Alfa Romeo", "colour":"black", "fuel":"petrol", "transmission":"manual", "image":"image1.png" }
+
+		// object 2: car 2
+		{"make":"Audi R8", "colour":"silver", "fuel":"petrol", "transmission":"manual", "image":"image2.png" }
+
+		// object 3: car 3 
+		{"make":"Bentley", "colour":"white", "fuel":"petrol", "transmission":"automatic", "image":"image3.png" }
+
+		// object 4: car 4
+		{"make":"Cadillac", "colour":"blue", "fuel":"petrol", "transmission":"automatic", "image":"image4.png" }
+
+		// object 5: car 5
+		{"make":"rolls royce wraith", "colour":"metallic black", "fuel":"petrol", "transmission":"manual", "image":"image5.png" }
+	]
+
+}
